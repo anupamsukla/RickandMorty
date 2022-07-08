@@ -7,7 +7,6 @@ export default function useCharacterSearch(query, pageNumber) {
   const [error, setError] = useState(false)
   const [Characters, setCharacters] = useState([])
   const [hasMore, setHasMore] = useState(false)
-
   useEffect(() => {
     setCharacters([])
   }, [query])
@@ -26,7 +25,6 @@ export default function useCharacterSearch(query, pageNumber) {
     }).catch(e => {
       setError(true)
       setLoading(false)
-
     })
   }
     , [query, pageNumber])
