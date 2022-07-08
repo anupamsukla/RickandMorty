@@ -1,0 +1,182 @@
+.container {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: #fff;
+    border-radius: 1px;
+    margin: 5px;
+    padding: 20px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+
+}
+
+.imgname {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.container>div>img {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 72px;
+    margin-bottom: 32px
+}
+
+.button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.orginspecies {
+    display: flex;
+    align-items: center;
+
+}
+
+.orginspecies>div {
+    margin-right: 8px;
+
+}
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(16, 5, 5, 0.243);
+}
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.modal {
+    background: white;
+    position: relative;
+    margin: 25vh auto;
+    border-radius: 9px;
+    max-width: 300px;
+    padding: 8px 20px;
+    opacity: 1;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .3;
+    cursor: pointer;
+    border: none;
+}
+
+
+.name {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.status {
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+
+.imgname1 {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.details>div {
+    color: grey;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.details>div>div {
+    color: black;
+    font-weight: 500;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+
+
+input {
+    width: 350px;
+    height: 40px;
+    background-color: #fff;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body {
+    background-color: #f5f6f8;
+}
+
+.searchbar>div>img {
+    height: 24px;
+    margin-right: 12px;
+}
+
+.searchbar {
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+    display: flex;
+    padding: 9px 24px;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 12px;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
