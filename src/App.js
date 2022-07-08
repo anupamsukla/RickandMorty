@@ -5,6 +5,7 @@ import Carddetail from './components/Carddetails'
 import Card from './components/Card'
 import Searchbar from './components/Searchbar'
 export default function App() {
+
   const [query, setQuery] = useState("")
   const [name, setname] = useState("")
   const [pageNumber, setPageNumber] = useState(1)
